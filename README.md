@@ -311,7 +311,7 @@ The second largest number is: 6
 <h2 align="center">Loops</h2>
 
 
-### **Question 7:**
+### [Question 7](#loops)
 #### Write a program that calculates the sum of numbers from `start` to `end`.
 
 ### Program
