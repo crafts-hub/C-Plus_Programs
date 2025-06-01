@@ -348,7 +348,7 @@ Sum of numbers from 1 to 100 is: 👉 5050
 
 ---
 
-### **Question 8:**
+### [Question 8](#loops)
 #### Write a program that calculates the sum of all even numbers from 1 to 100.
 
 ### Program
@@ -381,7 +381,7 @@ The sum of even numbers is: 2550
 
 ---
 
-### **Question 9:**
+### [Question 9](#loops)
 #### Write a program that calculates the sum of all odd numbers from 1 to 100.
 
 ### Program
@@ -415,7 +415,7 @@ The sum of odd numbers is: 2500
 
 ---
 
-### **Question 10:**
+### [Question 10](#loops)
 #### Write a program that generates the multiplication table of a given number.
 
 ### Program
@@ -462,7 +462,7 @@ Give any number
 
 ---
 
-### **Question 11:**
+### [Question 11](#loops)
 #### Write a program that calculates the factorial of a given number.
 
 ### Program
@@ -507,7 +507,7 @@ Factorial is: 👉 120
 
 ---
 
-### **Question 12:**
+### [Question 12](#loops)
 #### Write a program that reverses a given number.
 
 ### Program
@@ -547,7 +547,7 @@ The reversed num is: --- 54321
 
 ---
 
-### **Question 13:**
+### [Question 13](#loops)
 #### Write a program that calculates the sum of the digits of a given number.
 
 ### Program
@@ -596,7 +596,7 @@ Sum of digits is: 👉 15
 
 ---
 
-### **Question 14:**
+### [Question 14](#loops)
 #### Write a program to check if a given number is a perfect number.
 
 ### Program
@@ -636,7 +636,7 @@ Perfect: 6
 
 ---
 
-### **Question 15:**
+### [Question 15](#loops)
 #### Write a program to find all prime numbers up to a given limit.
 
 ### Program
@@ -681,7 +681,7 @@ Give a limit (0 and 1 excluded):
 
 ---
 
-### **Question 16:**
+### [Question 16](#loops)
 #### Write a program to check if a given number is an Armstrong number.
 
 ### Program
