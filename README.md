@@ -42,10 +42,513 @@
 - [Question 29](#question-29) 👉 print sum of GP
 
 
+### [Exercise](#exercise-1)
+- [Question 30](#sequences) 👉 Write output of the program
+- [Question 31](#sequences) 👉 Write output of the program
+- [Question 32](#sequences) 👉 Write output of the program
+- [Question 33](#sequences) 👉 Write output of the program
+- [Question 34](#sequences) 👉 Write output of the program
+- [Question 35](#sequences) 👉 Write output of the program
 
+---
+
+
+<h2 align="center">Exercise</h2>
+
+
+### [Question 30](#exercise)
+#### Write output of the program.
+
+### Program
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int func(int n) {
+    static int x = 0;
+    if (n > 0) {
+        x++;                       // x is incremented and retains its value
+        return func(n - 1) + x;    // recursive call + current value of x
+    }
+    return 0;
+}
+
+int main() {
+    cout << "value is: " << func(5);
+    return 0;
+}
+
+```
+
+### **Working:**
+
+* `x` is a **static variable**, so it retains its value across recursive calls.
+* For each recursive call: `x` is incremented, and added on the way back.
+
+
+
+### **Recursive Calls Breakdown:**
+
+| Call    | `n` | `x` (after `x++`) | Return value |
+| ------- | --- | ----------------- | ------------ |
+| func(5) | 5   | 1                 | ?            |
+| func(4) | 4   | 2                 | ?            |
+| func(3) | 3   | 3                 | ?            |
+| func(2) | 2   | 4                 | ?            |
+| func(1) | 1   | 5                 | ?            |
+| func(0) | 0   | -                 | 0            |
+
+Then it returns (read from bottom to top):
+
+```text
+
+func(5): 14 + 1 = 15
+func(4): 12 + 2 = 14
+func(3): 9 + 3 = 12
+func(2): 5 + 4 = 9
+func(1): 0 + 5 = 5
+```
+
+---
+
+### **Final Output:**
+
+```
+value is: 15
+```
+
+---
+
+
+
+### [Question 31](#exercise)
+#### Write output of the program.
+
+### Program
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int fun(int n) {
+    if (n == 0) return 0;
+    return fun(n - 1) + n;
+}
+
+int main() {
+    int result = fun(5);
+    cout << "Result: " << result << endl;
+    return 0;
+}
+
+
+```
+
+The `int fun(int n)` is a **recursive sum** function.
+It adds all numbers from `1` to `n`.
+
+
+
+So calling `fun(5)` gives:
+
+```
+fun(5) = fun(4) + 5
+fun(4) = fun(3) + 4
+fun(3) = fun(2) + 3
+fun(2) = fun(1) + 2
+fun(1) = fun(0) + 1
+fun(0) = 0
+```
+
+Now unwind:
+
+```
+fun(5) = 10 + 5 = 15  
+fun(4) = 6 + 4 = 10  
+fun(3) = 3 + 3 = 6  
+fun(2) = 1 + 2 = 3  
+fun(1) = 0 + 1 = 1  
+fun(0) = 0
+
+```
+
+---
+
+### Final Output:
+
+```
+Result: 15
+```
 
 
 ---
+
+
+
+
+### [Question 33](#exercise)
+#### Write output of the program.
+
+### Program
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+void update(int x) {
+    x = x + 5;
+    cout << "Inside function: " << x << endl;
+}
+
+int main() {
+    int a = 10;
+    update(a++);
+    cout << "In main: " << a << endl;
+    return 0;
+}
+
+
+```
+
+### **Explanation:**
+
+```cpp
+int a = 10;
+update(a++);
+```
+
+* `a++` passes **10** to `update`, because **post-increment** returns the original value before incrementing.
+* So `x = 10` inside the function.
+* `x + 5 = 15`, so:
+
+  ```cpp
+  cout << "Inside function: " << x << endl;  // prints 15
+  ```
+
+
+Here's the exact flow:
+
+1. `a = 10`
+2. `update(a++)`
+
+   * `a++` passes `10` (post-increment).
+   * After this line, `a` becomes **11**.
+3. Inside `update`, `x = 10`, and:
+
+   ```cpp
+   x = x + 5 → 10 + 5 = 15
+   cout << x → 15
+   ```
+4. Back in `main`, `cout << a → 11`
+
+---
+
+### Final Output:
+
+```
+Inside function: 15  
+In main: 11
+```
+
+
+---
+
+
+
+
+
+
+
+
+### [Question 34](#exercise)
+#### Write output of the program.
+
+### Program
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int b = 6;
+    b = ++b + b++;
+    b = b++ + ++b;
+    b = ++b + ++b;
+    b = b++ + b++;
+
+    cout<< b++;
+    cout<<"b = "<< b;
+    return 0;
+}
+
+```
+
+### **Explanation:**
+
+**Initial value:**
+
+```cpp
+int b = 6;
+```
+
+---
+
+### Step 1:
+
+```cpp
+b = ++b + b++;
+```
+
+Evaluate:
+
+* `++b` → pre-increment: `b = 7`, value used = 7
+* `b++` → post-increment: value used = 7, then `b = 8`
+
+So:
+
+```
+b = 7 + 7 = 14   // Now b is 14 (but internally, b was incremented after the post-increment)
+```
+
+---
+
+### Step 2:
+
+```cpp
+b = b++ + ++b;
+```
+
+Now `b = 14`
+
+Evaluate:
+
+* `b++` → value used = 14, then `b = 15`
+* `++b` → pre-increment: `b = 16`, value used = 16
+
+So:
+
+```
+b = 14 + 16 = 30
+```
+
+---
+
+### Step 3:
+
+```cpp
+b = ++b + ++b;
+```
+
+Now `b = 30`
+
+Evaluate:
+
+* First `++b` → `b = 31`, value used = 31
+* Second `++b` → `b = 32`, value used = 32
+
+So:
+
+```
+b = 31 + 32 = 63
+```
+
+---
+
+### Step 4:
+
+```cpp
+b = b++ + b++;
+```
+
+Now `b = 63`
+
+Evaluate:
+
+* First `b++` → value used = 63, then `b = 64`
+* Second `b++` → value used = 64, then `b = 65`
+
+So:
+
+```
+b = 63 + 64 = 127
+```
+
+Now `b = 127`, but behind the scenes it's been incremented twice, so final value is:
+
+```
+b = 127
+```
+
+---
+
+### Final Output:
+
+```cpp
+cout << b++;           // 127
+cout << "b = " << b; // b = 128
+```
+
+---
+
+
+
+
+
+### [Question 35](#exercise)
+#### Write output of the program.
+
+### Program
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5;
+    int b = a++ + ++a + a++ + ++a;
+
+    cout << "a: " << a << endl;
+    cout << "b: " << b << endl;
+
+    return 0;
+}
+
+```
+
+
+### **Explanation:**
+
+```cpp
+int a = 5;
+int b = a++ + ++a + a++ + ++a;
+```
+
+Initial value:
+
+* `a = 5`
+
+Now let's evaluate `b = a++ + ++a + a++ + ++a` in **left-to-right order**:
+
+---
+
+### Step-by-step:
+
+| Expression | Action         | Value Used        | New Value of `a` |
+| ---------- | -------------- | ----------------- | ---------------- |
+| `a++`      | Post-increment | `5`               | `a = 6`          |
+| `++a`      | Pre-increment  | `7` (a becomes 7) | `a = 7`          |
+| `a++`      | Post-increment | `7`               | `a = 8`          |
+| `++a`      | Pre-increment  | `9` (a becomes 9) | `a = 9`          |
+
+Now sum those values:
+
+```cpp
+b = 5 + 7 + 7 + 9 = 28
+```
+
+---
+
+### Final Result:
+
+```cpp
+a: 9
+b: 28
+```
+
+---
+
+
+
+### [Question 36](#exercise)
+#### Write output of the program.
+
+### Program
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int& getReference() {
+    static int x = 10;
+    x += 5;
+    return x;
+}
+
+int main() {
+    int a = getReference();
+    getReference() = 50;
+    cout << "a: " << a << endl;
+    cout << "getReference(): " << getReference() << endl;
+    return 0;
+}
+
+```
+
+This one tests your understanding of:
+
+* `static` variables
+* Returning by **reference**
+* Assignment to a function call
+
+
+### **Explanation:**
+
+
+```cpp
+int& getReference() {
+    static int x = 10;
+    x += 5;              // x = x + 5
+    return x;            // returns reference to x
+}
+```
+
+
+### **Step-by-Step Execution:**
+
+1. **`int a = getReference();`**
+
+   * `x = 10 → x += 5 → x = 15`
+   * `a = 15` (copies value)
+
+2. **`getReference() = 50;`**
+
+   * Function called again:
+
+     * `x = 15 → x += 5 → x = 20`
+   * But then `= 50` sets `x = 50` (because it returns a reference)
+
+3. **`getReference()`**
+
+   * Function called again:
+
+     * `x = 50 → x += 5 → x = 55`
+   * So, prints `55`
+
+---
+
+### Final Output:
+
+```
+a: 15
+getReference(): 55
+```
+
+---
+
+
+
+
+
+
+
+
 
 
 
@@ -1534,5 +2037,3 @@ The sum of the G.P. is: 605
 ```
 
 ---
-
-
