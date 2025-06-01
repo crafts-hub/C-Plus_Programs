@@ -912,7 +912,7 @@ int main() {
 
 
 
-### [Question 21](#array-1)
+### [Question 21](#array)
 #### Write a program to calculate the sum of all elements in an array.
 
 ### Program
@@ -956,7 +956,7 @@ The sum of all elements in the array is: 42
 
 ---
 
-### [Question 22](#array-1)
+### [Question 22](#array)
 #### Write a program to find the largest number in an array.
 
 ### Program
@@ -1003,7 +1003,7 @@ The largest number in the array is: 87
 
 ---
 
-### [Question 23](#array-1)
+### [Question 23](#array)
 #### Write a program to find the smallest number in an array.
 
 ### Program
@@ -1050,7 +1050,7 @@ The smallest number in the array is: 4
 
 ---
 
-### [Question 24](#array-1)
+### [Question 24](#array)
 #### Write a program to count even and odd numbers in an array.
 
 ### Program
@@ -1143,7 +1143,7 @@ Odd numbers count: 3
 
 
 
-### **Question 25:**
+### [Question 25](#sequences)
 
 #### Write a program to print the Sequence: 1 4 7 10 ...
 
@@ -1223,7 +1223,7 @@ Give number of terms you want to print:
 
 ---
 
-### **Question 26:**
+### [Question 26](#sequences)
 
 #### Write a program to print the series: 5 15 45 ...
 
@@ -1296,7 +1296,7 @@ Enter number of terms: 5
 
 
 
-### **Question 27:**
+### [Question 27](#sequences)
 
 #### Write a program to print the Sequence: 1/1, 1/4, 1/7, 1/10, ...
 
@@ -1381,7 +1381,7 @@ Enter number of terms: 5
 
 
 
-### **Question 28:**
+### [Question 28](#sequences)
 
 #### Write a program to print the sum of sequence: 1, 4, 7, 10, ...
 
@@ -1459,7 +1459,7 @@ The sum of the A.P. is: 35
 
 
 
-### **Question 29:**
+### [Question 29](#sequences)
 
 #### Write a program to print the sum of sequence: 5, 15, 45, 135, ...
 
