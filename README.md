@@ -294,7 +294,7 @@ int main() {
 int b = 6;
 ```
 
----
+
 
 ### Step 1:
 
@@ -313,7 +313,7 @@ So:
 b = 7 + 7 = 14   // Now b is 14 (but internally, b was incremented after the post-increment)
 ```
 
----
+
 
 ### Step 2:
 
@@ -334,7 +334,7 @@ So:
 b = 14 + 16 = 30
 ```
 
----
+
 
 ### Step 3:
 
@@ -355,7 +355,7 @@ So:
 b = 31 + 32 = 63
 ```
 
----
+
 
 ### Step 4:
 
@@ -433,7 +433,7 @@ Initial value:
 
 Now let's evaluate `b = a++ + ++a + a++ + ++a` in **left-to-right order**:
 
----
+
 
 ### Step-by-step:
 
