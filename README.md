@@ -112,8 +112,6 @@ func(2): 5 + 4 = 9
 func(1): 0 + 5 = 5
 ```
 
----
-
 ### **Final Output:**
 
 ```
@@ -176,7 +174,7 @@ fun(0) = 0
 
 ```
 
----
+
 
 ### Final Output:
 
@@ -246,7 +244,6 @@ Here's the exact flow:
    ```
 4. Back in `main`, `cout << a → 11`
 
----
 
 ### Final Output:
 
@@ -385,7 +382,7 @@ Now `b = 127`, but behind the scenes it's been incremented twice, so final value
 b = 127
 ```
 
----
+
 
 ### Final Output:
 
@@ -453,7 +450,7 @@ Now sum those values:
 b = 5 + 7 + 7 + 9 = 28
 ```
 
----
+
 
 ### Final Result:
 
@@ -532,7 +529,7 @@ int& getReference() {
      * `x = 50 → x += 5 → x = 55`
    * So, prints `55`
 
----
+
 
 ### Final Output:
 
