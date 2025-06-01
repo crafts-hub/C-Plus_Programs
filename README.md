@@ -773,7 +773,7 @@ int main() {
 
 ---
 
-### **Question 18:**
+### [Question 18](#nested-loops)
 #### Write a program to print a right-angled triangle of stars with right alignment.
 
 ### Program
@@ -814,7 +814,7 @@ int main() {
 
 ---
 
-### **Question 19:**
+### [Question 19](#nested-loops)
 #### Write a program to print an inverted left aligned right-angled triangle of stars.
 
 ### Program
@@ -851,7 +851,7 @@ int main() {
 
 ---
 
-### **Question 20:**
+### [Question 20](#nested-loops)
 #### Write a program to print an inverted right-angled triangle of stars with right alignment.
 
 ### Program
