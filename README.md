@@ -736,7 +736,7 @@ int main() {
 <h2 align="center">Nested Loops</h2>
 
 
-### **Question 17:**
+### [Questino 17](#nested-loops)
 #### Write a program to print a left aligned right-angled triangle of stars.
 
 ### Program
