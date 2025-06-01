@@ -93,7 +93,7 @@ a = 9, b = 7
 
 ---
 
-### **Question 2:**
+### **Question 2:**(#variables)
 #### Write a program to swap two numbers **using a third variable**.
 
 ### Program
