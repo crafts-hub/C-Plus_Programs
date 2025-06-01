@@ -58,7 +58,7 @@
 
 <h2 align="center">Variables</h2>
 
-### [Question 1:](#question-1)
+### [Question 1](#question-1)
 #### Write a program to swap two numbers **without** using a third variable.
 
 ### Program
