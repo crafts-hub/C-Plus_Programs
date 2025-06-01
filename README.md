@@ -912,7 +912,7 @@ int main() {
 
 
 
-### **Question 21:**
+### [Question 21](#array-1)
 #### Write a program to calculate the sum of all elements in an array.
 
 ### Program
@@ -956,7 +956,7 @@ The sum of all elements in the array is: 42
 
 ---
 
-### **Question 22:**
+### [Question 22](#array-1)
 #### Write a program to find the largest number in an array.
 
 ### Program
@@ -1003,7 +1003,7 @@ The largest number in the array is: 87
 
 ---
 
-### **Question 23:**
+### [Question 23](#array-1)
 #### Write a program to find the smallest number in an array.
 
 ### Program
@@ -1050,7 +1050,7 @@ The smallest number in the array is: 4
 
 ---
 
-### **Question 24:**
+### [Question 24](#array-1)
 #### Write a program to count even and odd numbers in an array.
 
 ### Program
