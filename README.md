@@ -93,7 +93,7 @@ a = 9, b = 7
 
 ---
 
-### **Question 2:**(#variables)
+### [Question 2](#variables)
 #### Write a program to swap two numbers **using a third variable**.
 
 ### Program
@@ -129,7 +129,7 @@ a = 9, b = 7
 
 ---
 
-### **Question 3:**
+### [Question 3](#variables)
 #### Write a program to find the absolute value of an input number.
 
 ### Program
@@ -168,7 +168,7 @@ Absolute value is: 5
 
 ---
 
-### **Question 4:**
+### [Question 4](#variables)
 #### Write a program to check if one number is divisible by another.
 
 ### Program
@@ -210,7 +210,7 @@ Enter two numbers:
 
 ---
 
-### **Question 5:**
+### [Question 5](#variables)
 #### Write a program to check if the input character is a digit or not.
 
 ### Program
@@ -253,7 +253,7 @@ Enter a character:
 
 ---
 
-### **Question 6:**
+### [Question 6](#variables)
 #### Write a program to find the second largest number among three numbers.
 
 ### Program
