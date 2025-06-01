@@ -43,12 +43,12 @@
 
 
 ### [Exercise](#exercise-1)
-- [Question 30](#sequences) 👉 Write output of the program
-- [Question 31](#sequences) 👉 Write output of the program
-- [Question 32](#sequences) 👉 Write output of the program
-- [Question 33](#sequences) 👉 Write output of the program
-- [Question 34](#sequences) 👉 Write output of the program
-- [Question 35](#sequences) 👉 Write output of the program
+- [Question 30](#question-30) 👉 Write output of the program
+- [Question 31](#question-31) 👉 Write output of the program
+- [Question 32](#question-32) 👉 Write output of the program
+- [Question 33](#question-33) 👉 Write output of the program
+- [Question 34](#question-34) 👉 Write output of the program
+- [Question 35](#question-35) 👉 Write output of the program
 
 ---
 
