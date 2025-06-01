@@ -49,6 +49,7 @@
 - [Question 33](#question-33) 👉 Write output of the program
 - [Question 34](#question-34) 👉 Write output of the program
 - [Question 35](#question-35) 👉 Write output of the program
+- [Question 36](#question-36) 👉 Write output of the program (Tricky one)
 
 ---
 
