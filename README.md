@@ -20,6 +20,7 @@
 - [Question 14](#question-14) 👉 check if a given number is a perfect number
 - [Question 15](#question-15) 👉 find all prime numbers up to a given limit
 - [Question 16](#question-16) 👉 check if a given number is an Armstrong number
+- [Question 17-](#question-17-) 👉 print Fibonacci series upto given number of terms
 
 ### [Nested Loops](#nested-loops-1)
 - [Question 17](#question-17) 👉 print a right-angled triangle with left alignment
@@ -681,6 +682,62 @@ int main() {
 ```
 
 ---
+
+
+### [Question 17-](#loops)
+#### Print Fibonacci series upto a given number of terms.
+
+```
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+```
+
+### Program
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numOfTerms, a = 0, b = 1;
+    cout << "Give number of terms you want to print: " << endl;
+    cin >> numOfTerms;
+
+    cout << a << ", " << b ; // prints first two terms, i.e: 0, 1
+
+    for (int i = 3; i <= numOfTerms; i++) // (i = 3) means it starts from 3rd term because we alrady printed first two terms
+    {
+        // bellow is simple logic of swap tow numbers:
+        int c = a + b; 
+        a = b;
+        b = c;
+        cout << ", " << b ;
+    }
+
+    return 0;
+}
+
+```
+
+### Output
+```
+
+Give number of terms you want to print: 
+8
+0, 1, 1, 2, 3, 5, 8, 13
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 <h2 align="center">Nested Loops</h2>
 
