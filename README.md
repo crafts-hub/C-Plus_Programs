@@ -588,10 +588,6 @@ After swapping:
 a = 9, b = 7
 ```
 
-### Explanation
-- The program swaps the values of `a` and `b` without using a third variable. 
-- The values are swapped using mathematical operations: addition and subtraction.
-
 ---
 
 ### [Question 2](#variables)
@@ -623,10 +619,6 @@ int main() {
 After swapping: 
 a = 9, b = 7
 ```
-
-### Explanation
-- This program uses a third variable (`temp`) to swap the values of `a` and `b`.
-- The value of `a` is first stored in `temp`, then `b` is assigned to `a`, and finally, `temp` (which holds the original value of `a`) is assigned to `b`.
 
 ---
 
@@ -663,9 +655,6 @@ Enter a number:
 Absolute value is: 5
 ```
 
-### Explanation
-- The program defines a function `absolute()` that returns the absolute value of a number.
-- If the input number is negative, it returns its positive equivalent, otherwise, it returns the number itself.
 
 ---
 
@@ -704,10 +693,6 @@ Enter two numbers:
 10 2
 10 is divisible by 2
 ```
-
-### Explanation
-- The program checks if the first number (`a`) is divisible by the second number (`b`) by calculating the remainder.
-- If the remainder is `0`, it means the first number is divisible by the second number.
 
 ---
 
@@ -748,9 +733,6 @@ Enter a character:
 5 is a digit.
 ```
 
-### Explanation
-- The program checks whether the input character is a digit by comparing its value to the ASCII values of the digits '0' to '9'.
-- If it falls within this range, it is considered a digit.
 
 ---
 
@@ -801,9 +783,6 @@ Enter three numbers:
 The second largest number is: 6
 ```
 
-### Explanation
-- The program compares three numbers to find the second largest.
-- The function `findSecondLargest()` uses conditional statements to determine which number is the second largest.
 
 ---
 
@@ -843,9 +822,6 @@ int main() {
 Sum of numbers from 1 to 100 is: 👉 5050
 ```
 
-### Explanation
-- The program calculates the sum of all integers from `1` to `100` using a loop.
-- The result of the sum is displayed.
 
 ---
 
@@ -876,9 +852,6 @@ int main() {
 The sum of even numbers is: 2550
 ```
 
-### Explanation
-- The program calculates the sum of even numbers from `1` to `100` by checking if the number is divisible by 2 using the modulo operator (`%`).
-- The sum of the even numbers is displayed.
 
 ---
 
@@ -910,9 +883,6 @@ int main() {
 The sum of odd numbers is: 2500
 ```
 
-### Explanation
-- The program calculates the sum of odd numbers from `1` to `100` by skipping even numbers using the `continue` statement and adding the odd numbers.
-- The sum of the odd numbers is displayed.
 
 ---
 
@@ -957,9 +927,6 @@ Give any number
 5 X 10 = 50
 ```
 
-### Explanation
-- The program takes an integer input and prints its multiplication table from `1` to `10`.
-- The table is displayed for the number entered.
 
 ---
 
@@ -1002,9 +969,6 @@ Enter a positive integer:
 Factorial is: 👉 120
 ```
 
-### Explanation
-- The program calculates the factorial of a number using a custom function.
-- It multiplies all integers from `1` to `num` and returns the result.
 
 ---
 
@@ -1041,10 +1005,6 @@ Your number is: --- 12345
 Thank you! :) 
 The reversed num is: --- 54321
 ```
-
-### Explanation
-- The program reverses the digits of a number using a `while` loop.
-- It extracts each digit from the end of the number, and constructs the reversed number.
 
 ---
 
@@ -1091,9 +1051,6 @@ Enter a positive integer:
 Sum of digits is: 👉 15
 ```
 
-### Explanation
-- The program calculates the sum of the digits of a given number.
-- It iterates through each digit of the number and adds it to the sum, then displays the result.
 
 ---
 
@@ -1131,9 +1088,6 @@ Enter a number.
 6
 Perfect: 6
 ```
-
-### Explanation
-- The program checks if the sum of the divisors (excluding the number itself) of a number equals the number. If true, it is a perfect number.
 
 ---
 
@@ -1176,9 +1130,6 @@ Give a limit (0 and 1 excluded):
 2, 3, 5, 7, 11, 13, 17, 19, 
 ```
 
-### Explanation
-- The program prints all prime numbers from `2` up to a given limit.
-- It checks each number if it has any divisors other than `1` and itself. If it does not, it's a prime number.
 
 ---
 
@@ -1228,10 +1179,6 @@ int main() {
 153 is an Armstrong number.
 ```
 
-### Explanation
-- The program checks if a number is an Armstrong number, which is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
-- It calculates the sum of the digits raised to the power of the number of digits and compares it with the original number.
-
 ---
 
 <h2 align="center">Nested Loops</h2>
@@ -1268,9 +1215,6 @@ int main() {
 *****
 ```
 
-### Explanation
-- The program prints a right-angled triangle of stars where the number of stars increases with each row.
-- The outer loop controls the number of rows, and the inner loop prints stars in each row.
 
 ---
 
@@ -1309,9 +1253,6 @@ int main() {
 *****
 ```
 
-### Explanation
-- The program prints a right-angled triangle of stars, but it is right-aligned. The outer loop controls the number of rows, while the inner loops handle the spaces and stars in each row.
-- The first inner loop prints spaces, and the second inner loop prints stars.
 
 ---
 
@@ -1345,10 +1286,6 @@ int main() {
 **
 *
 ```
-
-### Explanation
-- The program prints an inverted right-angled triangle of stars where the number of stars decreases with each row.
-- The outer loop controls the number of rows, and the inner loop prints stars in each row, starting from the maximum number of stars in the first row.
 
 ---
 
@@ -1389,10 +1326,6 @@ int main() {
     *
 ```
 
-### Explanation
-- The program prints an inverted right-angled triangle of stars, with left alignment. 
-- The outer loop controls the number of rows, while the inner loops print spaces and stars in each row.
-- The first inner loop prints spaces, and the second inner loop prints stars.
 
 ---
 
@@ -1451,9 +1384,6 @@ Enter 6 elements:
 The sum of all elements in the array is: 42
 ```
 
-### Explanation
-- The program takes 6 elements as input into an array.
-- It calculates the sum of all elements by iterating over the array and adding each element to the `sum` variable.
 
 ---
 
@@ -1498,10 +1428,6 @@ Enter 6 elements:
 The largest number in the array is: 87
 ```
 
-### Explanation
-- The program initializes the first element as the largest number, then traverses the array to check if there is a larger number.
-- It updates the `largest` variable whenever it finds a larger element.
-
 ---
 
 ### [Question 23](#array)
@@ -1545,9 +1471,6 @@ Enter 6 elements:
 The smallest number in the array is: 4
 ```
 
-### Explanation
-- The program initializes the first element as the smallest number, then traverses the array to check if there is a smaller number.
-- It updates the `smallest` variable whenever it finds a smaller element.
 
 ---
 
@@ -1598,9 +1521,6 @@ Even numbers count: 4
 Odd numbers count: 3
 ```
 
-### Explanation
-- The program counts the number of even and odd numbers in the array.
-- It uses the modulus operator (`%`) to check whether a number is even or odd.
 
 ---
 
